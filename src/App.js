@@ -68,12 +68,12 @@ function App() {
           </select>
         </div>
         <div className="input-container">
-          <button type="button" onClick={fetchData}>Search</button>
-        </div>
-        <div className="event-list">
-          <FiresList firesList={fires}/>
+          <button type="button" className="submit-button" onClick={fetchData}>Search</button>
         </div>
       </div>
+      <div className="event-list">
+          <FiresList firesList={fires}/>
+        </div>
     </div>
   );
 }

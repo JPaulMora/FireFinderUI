@@ -7,7 +7,73 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.date-picker {
+  display: flex;
+  justify-content: center;
+  background-color: #D3D4D9;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 10px;
+}
+
+.date-picker label {
+  padding: 0px 20px;
+  font-size: 20pt;
+  display: flex;
+}
+
+.submit-button {
+  background: #BB0A21;
+  border: 1px solid #BB0A21;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  padding: 12px 14px;
+  margin: 10px;
+}
+
+.submit-button:hover,
+.submit-button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.submit-button:active {
+  opacity: .5;
+}
+
+ul {
+  background-color: #FFF9FB;
+  max-width: 1920px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+li {
+  background-color: #FFF9FB;
+  max-width: 1920px;
+  border-radius: 5px;
+  border: 1px solid #BB0A21;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+}
+
+li:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
 }
