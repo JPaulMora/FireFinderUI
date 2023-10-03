@@ -10,7 +10,7 @@ function App() {
   const [fires, setFires] = useState([]);
 
   let years = [];
-  for (let i = 2001; i < (new Date()).getFullYear(); i++) {
+  for (let i = 2001; i <= (new Date()).getFullYear(); i++) {
     years.push(i);
   }
 
